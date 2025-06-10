@@ -35,7 +35,7 @@ public class Menu {
     }
 
     private static void start(CommentGenerator commentGenerator, Scanner scanner,
-                              UserGenerator userGenerator,PostStore postStore) {
+                              UserGenerator userGenerator, PostStore postStore) {
         boolean run = true;
         while (run) {
             System.out.println(MENU);
